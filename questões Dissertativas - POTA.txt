@@ -1,0 +1,26 @@
+Caro, aluno,
+ao longo da Unidade foram abordados: a problemática do crescimento do volume de dados; conceitos e técnicas sobre algoritmos de busca, ordenação e armazenamento; bem como análise de complexidade. Os referidos algoritmos são recursos importantes que possibilitam melhor aproveitamento da grande quantidade de informação armazenada nos repositórios de dados. Estes assuntos proporcionaram a você uma ampla visão sobre o tema, sua aplicabilidade e importância no cenário tecnológico atual. (MANZANO, J. A. N. G.; LOURENÇO, A. E.; MATOS, E. Algoritmos - Técnicas de Programação. 2. ed. São Paulo: Érica, 2015.)
+
+
+Com base no material que você estudou, escreva sobre algoritmos de busca sequencial e binária, dando exemplos e buscando apresentar as diferenças.
+
+RESPOSTA: Uma busca binária começará examinando o item do meio. Se esse item for aquele que estamos procurando, a busca termina. Se não for o item correto, podemos usar a natureza ordenada da lista para eliminar a metade dos itens restantes.
+
+A busca sequencial é o algoritmo mais simples de busca:
+
+Percorra todo o vetor comparando a chave com o valor de cada
+posição.
+
+Se for igual para alguma posição, então devolva esta posição.
+Se o vetor todo foi percorrido então devolva -1.
+A busca binária é um algoritmo um pouco mais sofisticado.  E mais eficiente, mas requer que o vetor esteja ordenado pelos valores  da chave de busca.
+
+AV 3 
+Os algoritmos do tipo ordenação e intercalação dividem os arquivos em pequenas frações, ordenando e intercalando os resultados em duas fases: ordenação e intercalação. Podemos listar os métodos de intercalação externa como: Intercalação balanceada de vários caminhos; seleção por substituição e intercalação polifásica. (FERRAZ, 2003).Ao longo da unidade, verificamos que boa parte dos métodos de ordenação externa usa a seguinte estratégia geral: passar primeiro pelo arquivo a ser ordenado, dividindo-o em blocos sobre o tamanho da memória interna e classificar esses blocos. Em seguida, mesclar os blocos ordenados, fazendo várias passagens pelo arquivo, criando blocos ordenados sucessivamente maiores até que todo o arquivo seja classificado. Os dados são acessados de maneira sequencial com mais frequência, uma propriedade que torna esse método apropriado para a maioria dos dispositivos externos. Como a maior parte do custo de um método de ordenação externa é para entrada e saída, podemos obter uma medida aproximada do custo de uma ordenação de mesclagem contando o número de vezes que cada palavra no arquivo é lida ou gravada. (FERRAZ, 2003)
+
+Referência:FERRAZ, I. N. Programação com arquivos. Barueri, São Paulo: Manole, 2003.
+
+Considerando essas informações e os conteúdos estudados, escolha dois métodos de intercalação externa e elenque sobre os conceitos e diferenças de sua aplicabilidade. Após isto, considere um arquivo armazenado em uma fita de entrada: (B T P S U J M H B M E N F S H J M H F Y B N Q M F); estes devem ser classificados e colocados em uma fita de saída, usando o método de ordenação externa de vários caminhos. A atividade tem como objetivo principal ordenar essa fita com 25 registros, colocando-os em uma fita de saída, considerando a memória interna com capacidade de três registros e que tenha seis unidades de fita magnética disponível.
+
+RESPOSTA: Sobre os métodos de intercalação podemos dizer que as classificações no que tange os métodos de ordenação são conhecidos como: ordenação interna, onde o arquivo pode ser ordenado em uma memória principal, e a ordenação externa, não cabe na memória principal.
+A diferença entre os métodos está no registro onde uma pode ser imediatamente acessada, no caso da ordenação interna, e a outra os registros são acessados de maneira sequencial.
